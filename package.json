@@ -1,0 +1,26 @@
+{
+  "name": "life-cycle-of-reactive-effects",
+  "version": "1.0.0",
+  "description": "In this read, I learnt:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babelwatcher": "babel --watch src --out-dir dist --presets babel-preset-react-app/prod",
+    "tailwindscanner": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2Kelvin/lifecycle-of-reactive-effects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2Kelvin/lifecycle-of-reactive-effects/issues"
+  },
+  "homepage": "https://github.com/2Kelvin/lifecycle-of-reactive-effects#readme",
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "babel-preset-react-app": "^10.0.1"
+  }
+}
